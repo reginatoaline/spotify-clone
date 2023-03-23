@@ -1,5 +1,6 @@
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -46,6 +47,21 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
+
+
 .btn-custom {
     color: white;
     border-radius: 500px;
@@ -74,7 +90,32 @@ h1 {
 }
 
 
+#servicos {
+    background: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
 
 /* X-Small devices (portrait phones, less than 576px)
@@ -112,3 +153,9 @@ h1 {
     }
  }
 
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
